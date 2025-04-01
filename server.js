@@ -1,5 +1,4 @@
-import { log } from "node:console";
-import { createServer, request } from "node:http";
+import { createServer } from "node:http";
 
 const server = createServer((request, response) => {
     console.log("request recive, nice!");
